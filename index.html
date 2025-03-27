@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<style>
+    body {
+        background-image: url('img/gif.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .person1 {
+        background-color: #361078;
+        color: #faecec;
+        border: 1px solid #060213;
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+</style>
+<body>
+<form class="container text-center" style="margin-top: 5%;">
+    <h1>Calculador Fibonacci</h1>
+    <div class="mb-3">
+        <label class="form-label fs-4 fw-bold">Digite um numero : </label>
+        <br>
+        <input type="text" class="col-form-label person1" name="numero" id="numero">
+    </div>
+    <div class="mb-3">
+        <label class="form-label fs-4 fw-bold">Resultado : </label>
+        <div class="form-text fw-bold fs-5 " id="resultado"></div>
+    </div>
+    <button type="button" class="btn btn-primary fs-4 " value="numero" onclick="verificar()">Enviar</button>
+</form>
+</body>
+<script src="./js/codigo.js"></script>
+</html>
